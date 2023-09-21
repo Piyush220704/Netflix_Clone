@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(./IN-en-20230814-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+}
+.nav{
+    height: 80px;
+    padding-top: 25px;
+}
+.logo{
+    height: 40px;
+    width: 148px;
+}
+.language{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.2px solid white;
+    height:32px;
+    border-radius: 4px;
+}
+.search{
+    background-color: transparent;
+    color: white;
+    font-size: 1.1rem;
+    border: none;
+
+}
+.globe{
+    color: white;
+}
+.signinbutton{
+    background-color: red;
+    height: 32px;
+    width: 75px;
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 3px;
+    border: none;
+    padding-bottom: 2px;
+}
+.content{
+    color: white;
+    text-align: center;
+}
+.content > h1{
+    font-size: 3rem;
+    font-weight: 800;
+}
+.content > p{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.content > h2{
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.875rem
+}
+.contentbox{
+    height: 700px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.getstartedbutton{
+    height: 56px;
+    width: 201px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.7rem;
+}
+.emailbutton{
+    height: 56px;
+    width: 376px;
+    border: 0.2px solid white;
+    padding-left: 8px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    margin-right: 8px;
+    background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)),transparent;
+    color: white;
+}
+.login{
+    display: flex;
+    justify-content: center;
+}
+.box2{
+    border-top: 10px solid grey;
+    height: 631px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 72px 0px;
+}
+.boxcontent{
+    margin: 0px 187px;
+    height: 487px;
+}
+.boxcontent > .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box2text > h2 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+.box2text > p{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.box3{
+    border-top: 10px solid grey;
+    height: 631px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 72px 0px;
+}
